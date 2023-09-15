@@ -17,3 +17,29 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
+# Ignore the .env file
+.env
+
+# Ignore the vendor directory
+/vendor
+
+# Ignore node_modules (if using npm/yarn)
+/node_modules
+
+# Ignore generated files and logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/logs/*.log
+/storage/app/public
+
+# Ignore IDE/editor specific files
+.idea/
+.vscode/
+
+# Ignore Homestead/Vagrant configuration
+/Homestead.yaml
+/Vagrantfile
+
+# Ignore Docker-related files
+/Dockerfile
+/docker-compose.yml
