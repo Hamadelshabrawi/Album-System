@@ -5,5 +5,5 @@
 - npm install
 - npm run dev
 - php artisan serve
-- after install , register you user and login after register . 
+- after install , register your user and login
 
